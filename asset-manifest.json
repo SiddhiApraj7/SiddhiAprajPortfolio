@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab370857.css",
-    "main.js": "/static/js/main.3fba3fd1.js",
-    "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
-    "static/media/DigiRupi.png": "/static/media/DigiRupi.f516ad7d47a3c3953085.png",
-    "static/media/GmailAIAssistantSS.png": "/static/media/GmailAIAssistantSS.7fc4c80cb43275846910.png",
-    "static/media/PairsTradingSS.png": "/static/media/PairsTradingSS.4fe6734ac1eb996f8b1e.png",
-    "static/media/LibConnect.png": "/static/media/LibConnect.ca0469e7ace2b0216f0d.png",
-    "static/media/GDSC.png": "/static/media/GDSC.99c0cff2a9b3bf7c3683.png",
-    "static/media/heroImage.jpeg": "/static/media/heroImage.5d30b00f26b8e8ee3dc9.jpeg",
-    "static/media/ProductRepairAppSS.png": "/static/media/ProductRepairAppSS.a9e8f476587445692718.png",
-    "index.html": "/index.html",
-    "main.ab370857.css.map": "/static/css/main.ab370857.css.map",
-    "main.3fba3fd1.js.map": "/static/js/main.3fba3fd1.js.map",
-    "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/SiddhiAprajPortfolio/static/css/main.ab370857.css",
+    "main.js": "/SiddhiAprajPortfolio/static/js/main.e9cb8a88.js",
+    "static/js/453.acca0757.chunk.js": "/SiddhiAprajPortfolio/static/js/453.acca0757.chunk.js",
+    "static/media/DigiRupi.png": "/SiddhiAprajPortfolio/static/media/DigiRupi.f516ad7d47a3c3953085.png",
+    "static/media/GmailAIAssistantSS.png": "/SiddhiAprajPortfolio/static/media/GmailAIAssistantSS.7fc4c80cb43275846910.png",
+    "static/media/PairsTradingSS.png": "/SiddhiAprajPortfolio/static/media/PairsTradingSS.4fe6734ac1eb996f8b1e.png",
+    "static/media/LibConnect.png": "/SiddhiAprajPortfolio/static/media/LibConnect.ca0469e7ace2b0216f0d.png",
+    "static/media/GDSC.png": "/SiddhiAprajPortfolio/static/media/GDSC.99c0cff2a9b3bf7c3683.png",
+    "static/media/heroImage.jpeg": "/SiddhiAprajPortfolio/static/media/heroImage.5d30b00f26b8e8ee3dc9.jpeg",
+    "static/media/ProductRepairAppSS.png": "/SiddhiAprajPortfolio/static/media/ProductRepairAppSS.a9e8f476587445692718.png",
+    "index.html": "/SiddhiAprajPortfolio/index.html",
+    "main.ab370857.css.map": "/SiddhiAprajPortfolio/static/css/main.ab370857.css.map",
+    "main.e9cb8a88.js.map": "/SiddhiAprajPortfolio/static/js/main.e9cb8a88.js.map",
+    "453.acca0757.chunk.js.map": "/SiddhiAprajPortfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab370857.css",
-    "static/js/main.3fba3fd1.js"
+    "static/js/main.e9cb8a88.js"
   ]
 }

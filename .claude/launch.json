@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "portfolio-dev",
+      "runtimeExecutable": "/Users/siddhiapraj/Portfolio2026/scripts/dev.sh",
+      "runtimeArgs": [],
+      "port": 5173
+    }
+  ]
+}

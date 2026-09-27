@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-ink: #0a0a12;
+  --color-ink-raised: #12121e;
+  --color-ink-line: #23232f;
+  --color-ink-info: #34313f;
+  /* Output cards: a navy just a shade darker/bluer than the page bg itself. */
+  --color-ink-output: #0a0f1c;
+
+  --color-paper: #e7e7f2;
+  --color-paper-dim: #8686a0;
+
+  --color-cyan: #00e5ff;
+  --color-cyan-dim: #0891b2;
+  --color-magenta: #ff3ec8;
+  --color-magenta-dim: #a21caf;
+  --color-green: #33d17a;
+  --color-purple: #7c6cf6;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --color-ink: #f7f7fb;
+  --color-ink-raised: #ffffff;
+  --color-ink-line: #dcdce6;
+  --color-ink-info: #eef0f7;
+  /* Output cards: a soft light-blue tint vs. the pure-white code-cell bg. */
+  --color-ink-output: #eef6fd;
+
+  --color-paper: #16161f;
+  --color-paper-dim: #5c5c72;
+
+  --color-cyan: #0284a8;
+  --color-cyan-dim: #026080;
+  --color-magenta: #c81e8f;
+  --color-magenta-dim: #8f1568;
+  --color-green: #1f9d5c;
+  --color-purple: #6a4fd6;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-paper);
+  font-family: var(--font-sans);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+::selection {
+  background: var(--color-cyan-dim);
+  color: #fff;
+}
+
+* {
+  scrollbar-color: var(--color-ink-line) transparent;
+  scrollbar-width: thin;
+}
+
+@keyframes signal-edge-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.signal-edge {
+  animation: signal-edge-in 0.6s ease-out both;
+}
+
+@keyframes signal-node-in {
+  from {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.signal-node {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: signal-node-in 0.4s ease-out both;
+}
+
+@keyframes flash-highlight {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  15%,
+  70% {
+    box-shadow:
+      0 0 0 3px var(--color-cyan),
+      0 0 16px 2px var(--color-cyan);
+  }
+}
+
+.flash-highlight {
+  animation: flash-highlight 1.6s ease-in-out;
+  border-radius: 0.375rem;
+}
